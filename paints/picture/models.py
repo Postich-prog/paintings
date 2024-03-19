@@ -12,3 +12,4 @@ class Picture(models.Model):
         on_delete=models.CASCADE,
         related_name='pictures'
     )
+    year = models.IntegerField()
